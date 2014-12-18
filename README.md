@@ -45,7 +45,8 @@ Check
 ```
 
 Each time this command is executed it reads all 20 records from aerospike, checks them, increments by one and writes back. If some of the records are unavailable or value of some the records
-is different from all values median plugin will return CRITICAL to nagios. Performance data can be used to assess
+is different from all values median plugin will return CRITICAL to nagios. Performance data can be used to assess how much data were affected.
+
 
 
 How performacne data look like:
